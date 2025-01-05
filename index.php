@@ -233,7 +233,7 @@ foreach ($result as $row)
                                         </div>
                                     </div>
                                 <?php else: ?>
-                                    <p><a href="product.php?id=<?php echo $row['p_id']; ?>"><i class="fa fa-shopping-cart"></i> Add to Cart</a></p>
+                                    <p><a href="https://api.whatsapp.com/send?phone=212628917057"><i class="fa fa-shopping-cart"></i> Contacter</a></p>
                                 <?php endif; ?>
                             </div>
                         </div>
@@ -361,7 +361,7 @@ foreach ($result as $row)
                                         </div>
                                     </div>
                                 <?php else: ?>
-                                    <p><a href="product.php?id=<?php echo $row['p_id']; ?>"><i class="fa fa-shopping-cart"></i> Add to Cart</a></p>
+                                    <p><a href="https://api.whatsapp.com/send?phone=212628917057"><i class="fa fa-shopping-cart"></i> Contacter</a></p>
                                 <?php endif; ?>
                             </div>
                         </div>
@@ -492,7 +492,7 @@ foreach ($result as $row)
                                         </div>
                                     </div>
                                 <?php else: ?>
-                                    <p><a href="product.php?id=<?php echo $row['p_id']; ?>"><i class="fa fa-shopping-cart"></i> Add to Cart</a></p>
+                                    <p><a href="https://api.whatsapp.com/send?phone=212628917057"><i class="fa fa-shopping-cart"></i> Contacter</a></p>
                                 <?php endif; ?>
                             </div>
                         </div>

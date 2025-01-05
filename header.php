@@ -278,12 +278,17 @@ foreach ($result as $row) {
 
 <div class="header">
 	<div class="container">
-		<div class="row inner">
+		<div class="row inner"  style="padding: 5px;">
 			<div class="col-md-4 logo">
-				<a href="index.php"><img src="assets/uploads/<?php echo $logo; ?>" alt="logo image"></a>
+				<a href="index.php"><img src="assets/uploads/<?php echo $logo; ?>" alt="logo image" style="width: 50px; height: auto;"></a>
 			</div>
 			
 			
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+
 			<div class="col-md-3 search-area">
 				<form class="navbar-form navbar-left" role="search" action="search-result.php" method="get">
 					<?php $csrf->echoInputField(); ?>
